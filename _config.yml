@@ -18,3 +18,6 @@ copyright: "&copy 2016 CG Cookie Inc"
 
 # Build settings
 markdown: kramdown
+
+# Category settings
+category-list: [tools, tips]
