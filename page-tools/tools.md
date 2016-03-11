@@ -1,0 +1,12 @@
+---
+layout: page
+title: Tools
+---
+
+<ul>
+  {% for page in site.pages %}
+    {% if page.tool == true %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+    {% endif %}   <!-- resource-p -->
+  {% endfor %}  <!-- page -->
+</ul>
