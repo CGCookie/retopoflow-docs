@@ -173,6 +173,10 @@
     border-right: 1px solid $grey-color-light;
     margin-right: $spacing-unit;
     padding-right: $spacing-unit;
+
+    li {
+        list-style: none;
+    }
 }
 .page-content {
     padding: $spacing-unit 0;
