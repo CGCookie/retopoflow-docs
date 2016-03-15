@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-sidebar
 title: Contours
 permalink: /tool/contours/
 tool: true

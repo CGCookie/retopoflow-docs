@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-sidebar
 title: Polypen
 permalink: /tool/polypen/
 tool: true
