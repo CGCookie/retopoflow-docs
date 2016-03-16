@@ -10,7 +10,7 @@ RetopoFlow is a complete set of retopologize tools for Blender designed for arti
 
 If you're brand new to RetopoFlow, check the [Getting Started]({{ site.baseurl }}/getting-started) page, ortherwise jump right over to the [Tools]({{ site.baseurl }}/tools) section.
 
-![RetopoFlow Viewport]({{ site.baseurl }}/assets/img/rf_viewport.png)
+![RetopoFlow Viewport]({{ site.baseurl }}/assets/img/rf_viewport_polystrips.png)
 
 ## Requirements
 RetopoFlow v1.2.x requires Blender 2.76 or newer, and will work on any operating system Blender supports.
