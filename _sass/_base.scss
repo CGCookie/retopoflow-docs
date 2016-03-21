@@ -76,8 +76,24 @@ li {
          margin-bottom: 0;
     }
 }
-
-
+/**
+ * Tables
+ */
+table {
+    width: 100%;
+}
+th {
+    border-bottom: 1px solid $grey-color-light;
+}
+tr {
+    border: none;
+    &:nth-child(even) {
+        background-color: $grey-color-light;
+    }
+}
+td, th {
+    padding: $spacing-unit / 5;
+}
 
 /**
  * Headings
