@@ -15,6 +15,10 @@ With RetopoFlow activated, select the source object (your original mesh) in Obje
 
 Upon calling either *Contours*, *Polystrips*, or *Polypen* you will be placed into a modal operator (a session), during which you can use the tool to retopologize a portion or all of the source object. Once you're happy with the results press **Enter / Return** to generate the mesh, or **ESC** to cancel.
 
+
+<img align='right' src='{{ site.baseurl }}/assets/img/rf_viewport_help.png'>
+With all tools there is an onscreen help box for the active tool, giving you quick access to hotkeys, actions, and tips. Click to show the help, click again to hide it.
+
 *Learn how to use each of the tools specifically on the [Tools page]({{ site.baseurl }}/tools).*
 
 ## Source Object
@@ -29,6 +33,7 @@ There are three ways to specify the Source object:
  3. Leave field blank, select desired source object, activate any RetopoFlow tool. Source will be auto-detected.
 
 ## Target Object
+If set this is the object you'll be adding new geometry data to. If left blank RetopoFlow will create a new object.
 
 ### Specifying a target object
 

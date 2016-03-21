@@ -11,5 +11,12 @@ Works in Edit Mode on existing geometry.
 
 ## Basic Usage
 
+## Controls
+
+| Action | Hotkey |
+| :------ | :------ |
+| **Tweak** | LMB |
+| **Relax** | Shift+LMB |
+| **Brush Size** | F |
 
 ## Use Cases
