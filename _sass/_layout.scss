@@ -167,9 +167,13 @@
 /**
  * Page content
  */
+.page-container {
+    padding: $spacing-unit 0;
+}
 
 .page-sidebar {
     float: left;
+    width: 100px;
     border-right: 1px solid $grey-color-light;
     margin-right: $spacing-unit;
     padding-right: $spacing-unit;
@@ -180,6 +184,7 @@
 }
 .page-content {
     padding: $spacing-unit 0;
+    overflow: hidden;
 }
 
 .page-heading {
