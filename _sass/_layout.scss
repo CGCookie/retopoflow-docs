@@ -231,6 +231,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    float: left;
+    width: $content-width / 1.5;
 
     h2 {
         font-size: 32px;
