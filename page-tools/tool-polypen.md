@@ -16,6 +16,8 @@ After activating Polypen use CTRL+LMB to insert an initial vertex, CTRL+LMB a se
 
 With each click Polypen with insert new geometry and select the newly created edge, enabling you to instantly add faces at will, exactly where you wish. 
 
+<img align='center' src='{{ site.baseurl }}/assets/img/gif/polypen_gif_01.gif'>
+
 ## Controls
 
 | Action | Hotkey |
@@ -28,6 +30,18 @@ With each click Polypen with insert new geometry and select the newly created ed
 | **Commit Changes** | Enter |
 | **Cancel Changes** | ESC |
 | **Undo** | CTRL+Z | 
+|
+
+## Selection > Action Map
+The result of each action click (CTRL+LMB) in Polypen is dependent on your selection and what you click onto. The table below illustrates what happens for each combination. The top row is your starting selection, while the left column is the element being clicked onto.
+
+| Selection: | Nothing      | Vert                 | Edge       | Triangle     | Quad+  |
+| : --- :    |
+| **Src:**   | create vert  | extrude vert         | create tri | vert > edge  | ---    |
+| **Vert:**  | select vert  | connect verts        | bridge     | vert to face | bridge |
+| **Edge:**  | insert vert  | bridge               | bridge     | bridge       | bridge |
+| **Face:**  | vert >  edge | connect vert >  edge | bridge     | bridge       | bridge |
+|
 
 
 ## Use Cases
