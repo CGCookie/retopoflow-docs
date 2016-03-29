@@ -10,13 +10,25 @@ The Contours tool is designed to enable you to quickly retopologize cylinderical
 Works in both Object Mode and Edit Mode. Contours can only create new geometry.
 
 ## Basic Usage
+Contours is a simple tool; after specifying a source object simply activate Contours on your target object and click+drag with your LMB to draw strokes perpendicular to the form you're wishing to retopologize. The tool will automatically create a circle of evenly spaced verts around the form. Drawing another stroke adjacent to the first will bridge the two loops; as will a third, a forth, and so on. The Contours tool does its best to automatically determine which prior loop it should bridge the new loop to, enabling you to drawing quickly from any direction and in any order.
+
+<img align='right' src='{{ site.baseurl }}/assets/img/rf_contours_strokes_01.gif'>
 
 ## Controls
 
 | Action | Hotkey |
 | :------ | :------ |
-| **Draw Stroke** | LMB |
-| **Select Stroke** | Selection mouse |
+| **Draw stroke** | LMB |
+| **Select loop** | Selection mouse |
+| **Adjust segment count** | MouseWheel |
+| **Slide loop** | G |
+| **Rotate loop** | R |
+| **Shift loop** | Left/Right arrow |
+| **Delete loop** | X |
+| **Toggle Guide mode** | TAB |
+| **Generate mesh** | Enter |
+| **Cancel** | ESC |
+
 
 
 ## Use Cases
