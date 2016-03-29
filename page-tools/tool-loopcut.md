@@ -3,6 +3,7 @@ layout: page-sidebar
 title: Loop Cut
 permalink: /tool/loopcut/
 tool: true
+top: false
 ---
 
 The Loop Cut tool is similar to Blender's own Loop Cut and Slide tool, except that this one automatically snaps the resulting loop to surface of the *Source object*.

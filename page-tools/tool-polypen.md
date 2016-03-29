@@ -3,6 +3,7 @@ layout: page-sidebar
 title: Polypen
 permalink: /tool/polypen/
 tool: true
+top: true
 ---
 
 The Polypen is useful for those scenarios where you need absolute control on a vertex by vertex basis. It enables you to insert, extrude, and fill vertices, edges, and faces one at a time with precision and flexiblity.
@@ -14,7 +15,7 @@ Works in both Object Mode and Edit Mode.
 ## Basic Usage
 After activating Polypen use CTRL+LMB to insert an initial vertex, CTRL+LMB a second time to extrude the vertex, then CTRL+LMB a third time to create a triangle. A forth click with create a quad. 
 
-With each click Polypen with insert new geometry and select the newly created edge, enabling you to instantly add faces at will, exactly where you wish. 
+With each click Polypen will insert new geometry and select the newly created edge, enabling you to instantly add faces at will, exactly where you wish. 
 
 
 ## Controls
@@ -36,10 +37,10 @@ The result of each action click (CTRL+LMB) in Polypen is dependent on your selec
 
 | Selection: | Nothing      | Vert                 | Edge       | Triangle     | Quad+  |
 | : --- :    |
-| **Src:**   | create vert  | extrude vert         | create tri | vert > edge  | ---    |
-| **Vert:**  | select vert  | connect verts        | bridge     | vert to face | bridge |
-| **Edge:**  | insert vert  | bridge               | bridge     | bridge       | bridge |
-| **Face:**  | vert >  edge | connect vert >  edge | bridge     | bridge       | bridge |
+| *Source:*   | create vert  | extrude vert         | create tri | vert > edge  | ---    |
+| *Vert:*  | select vert  | connect verts        | bridge     | vert to face | bridge |
+| *Edge:*  | insert vert  | bridge               | bridge     | bridge       | bridge |
+| *Face:*  | vert >  edge | connect vert >  edge | bridge     | bridge       | bridge |
 |
 
 

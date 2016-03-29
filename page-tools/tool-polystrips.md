@@ -3,6 +3,7 @@ layout: page-sidebar
 title: Polystrips
 permalink: /tool/polystrips/
 tool: true
+top: true
 ---
 
 This is polystrips!

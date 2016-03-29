@@ -1,6 +1,15 @@
 <ul>
+	<!-- Creation tools -->
   {% for page in site.pages %}
-    {% if page.tool == true %}
+    {% if page.tool == true and page.top == true %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+    {% endif %}
+
+  {% endfor %}
+  <li><hr></li>
+  <!-- Transform tools -->
+  {% for page in site.pages %}
+    {% if page.tool == true and page.top == false %}
           <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}

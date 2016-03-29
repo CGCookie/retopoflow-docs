@@ -3,6 +3,7 @@ layout: page-sidebar
 title: Loop Slide
 permalink: /tool/loopslide/
 tool: true
+top: false
 ---
 
 The Loop Slide tool enables you to slide any continuous loop along the adjacent edges while keeping it snapped to the surface of the *Source object*.
