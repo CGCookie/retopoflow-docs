@@ -19,5 +19,4 @@ Works in Edit Mode on existing geometry.
 | **Tweak** | LMB |
 | **Relax** | Shift+LMB |
 | **Brush Size** | F |
-
-## Use Cases
+ 

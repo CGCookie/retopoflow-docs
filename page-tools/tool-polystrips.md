@@ -21,4 +21,3 @@ Works in both Object Mode and Edit Mode. Polystrips can only create new geometry
 | **Select Strip/Junction** | Selection mouse |
 | **Brush Size** | F |
 
-## Use Cases

@@ -17,6 +17,8 @@ After activating Polypen use CTRL+LMB to insert an initial vertex, CTRL+LMB a se
 
 With each click Polypen will insert new geometry and select the newly created edge, enabling you to instantly add faces at will, exactly where you wish. 
 
+<img align='right' src='{{ site.baseurl }}/assets/img/rf_polypen_01.gif'>
+
 
 ## Controls
 
