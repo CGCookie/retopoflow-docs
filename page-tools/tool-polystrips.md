@@ -13,6 +13,8 @@ Works in both Object Mode and Edit Mode. Polystrips can only create new geometry
 
 ## Basic Usage
 
+<img align='right' src='{{ site.baseurl }}/assets/img/rf_polystrips_01.gif'>
+
 ## Controls
 
 | Action | Hotkey |
