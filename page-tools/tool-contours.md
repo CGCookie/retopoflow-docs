@@ -26,6 +26,7 @@ Contours is a simple tool; after specifying a source object simply activate Cont
 | **Shift loop** | Left/Right arrow |
 | **Delete loop** | X |
 | **Toggle Guide mode** | TAB |
+| **Undo** | CTRL + Z |
 | **Generate mesh** | Enter |
 | **Cancel** | ESC |
 
