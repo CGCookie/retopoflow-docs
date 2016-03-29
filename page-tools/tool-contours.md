@@ -29,4 +29,3 @@ Contours is a simple tool; after specifying a source object simply activate Cont
 | **Generate mesh** | Enter |
 | **Cancel** | ESC |
 
-## Use Cases
