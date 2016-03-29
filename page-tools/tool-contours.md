@@ -20,7 +20,7 @@ Contours is a simple tool; after specifying a source object simply activate Cont
 | :------ | :------ |
 | **Draw stroke** | LMB |
 | **Select loop** | Selection mouse |
-| **Adjust segment count** | MouseWheel |
+| **Adjust segment count** | Shift + MouseWheel |
 | **Slide loop** | G |
 | **Rotate loop** | R |
 | **Shift loop** | Left/Right arrow |
@@ -28,7 +28,5 @@ Contours is a simple tool; after specifying a source object simply activate Cont
 | **Toggle Guide mode** | TAB |
 | **Generate mesh** | Enter |
 | **Cancel** | ESC |
-
-
 
 ## Use Cases
